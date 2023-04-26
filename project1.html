@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="prjt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    
+    <!--bootstrap links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--bootstrap links-->
+    
+    <!--font links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!--font links-->
+       
+    
+    
+    
+    </head>
+    <body>
+    
+    <!-- top navbar-->
+    <div class="top-navbar">
+      <p>WELCOME TO OUR SHOP</p>
+    <div class="icons">
+     <a href="login.html">login</a> 
+    <a href="register.html">Register</a> 
+    </div>
+    </div>
+    <!-- top navbar-->
+    
+    
+    
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="logo"><span id="span1">F</span>urniture<span>Shop</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><img src="" alt="" width="30px"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:aquamarine;">
+                <li><a class="dropdown-item" href="sofa.html">sofas</a></li>
+                <li><a class="dropdown-item" href="chairs.html">chairs</a></li>
+                <li><a class="dropdown-item" href="beds.html">beds</a></li>
+                <li><a class="dropdown-item" href="dinning tables.html">dinning tables</a></li>
+                <li><a class="dropdown-item" href="swings.html">swings</a></li>
+                <li><a class="dropdown-item" href="teapoyees.html">tea poyees</a></li>
+                <li><a class="dropdown-item" href="tables1.html">tables</a></li>
+                <li><a class="dropdown-item" href="cupboards.html">cupbords</a></li>
+              </ul>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex " id="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--navbar-->
+    
+    
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      
+      </div>
+      
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.decornation.in/wp-content/uploads/2020/03/solid-wood-living-room-sofa.jpg"alt="Los Angeles" class="d-block" style="width:100%"height="700px">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.shopify.com/s/files/1/0553/0651/8581/files/HomeLP_ImageBanner_OrigingsDining.jpg?v=1668797752&width=1500" alt="Chicago" class="d-block" style="width:100%"height="700px">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.jodhpurifurniture.com/assets/images/Tallboy%20Bedroom.jpg" alt="New York" class="d-block" style="width:100%"height="700px">
+        </div>
+        <div class="carousel-item">
+            <img src="https://i.pinimg.com/564x/23/90/46/2390466b0452d530830c517bb5870a2c.jpg" alt="New York" class="d-block" style="width:100%"height="700px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://m.media-amazon.com/images/I/815d6rkLHFL._AC_UF894,1000_QL80_.jpg" alt="New York" class="d-block" style="width:100%"height="700px">
+          </div>
+      </div>
+      
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    </div>
+    
+    
+    <!--home content-->
+    <section class="home">
+    <div class="content">
+      <h1><span> Furniture</span>
+      <br>
+      Up To <span id="span2">50%</span>off
+    </h1>
+    <p>Lorem ipsum dolor sit amet cis cum! Qui.</p>
+    <div class="btn"><button>Shop Now</button></div>
+    </div>
+    <br><br>
+    <div class="img">
+      <img src="https://img.freepik.com/free-vector/flat-furniture-sale-banner-with-photo_23-2148926442.jpg" alt="" width="1000">
+    </div>
+    
+    </section>
+    <!--home content-->
+    
+    <!--product content-->
+    <div class="container" id="product-cards">
+      <h1 class="text-center">PRODUCTS</h1>
+      <div class="row" style="margin-top:30px">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="https://media.istockphoto.com/id/1031444360/photo/poster-above-white-cabinet-with-plant-next-to-grey-sofa-in-simple-living-room-interior-real.jpg?s=612x612&w=0&k=20&c=pKGXC920DL70qkNZp0xYpOF7AKQ9YFUSne_3wbQmJ5A=" alt="" height="425">
+          <div class="card-body">
+            <h3 class="text-center">sofaset</h3>
+            <p class="text-center">lorem ipsum dolor sit amet.</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>$45000<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+          </div>
+        </div>
+      </div>
+      
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="https://ii2.pepperfry.com/media/catalog/product/d/r/494x544/drusilla-sheesham-wood-4-seater-dining-set-in-provincial-teak-finish-drusilla-sheesham-wood-4-seater-sgdmji.jpg"alt="" height="425">
+        <div class="card-body">
+          <h3 class="text-center">dinnig table</h3>
+          <p class="text-center">lorem ipsum dolor sit amet.</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>$36000<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/I/51jlzhy5XKL._SX522_.jpg" alt="" height="425">
+          <div class="card-body">
+            <h3 class="text-center">tea payee</h3>
+            <p class="text-center">lorem ipsum dolor sit amet.</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>$8000<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://media.istockphoto.com/id/1069626486/photo/resin-pink-wicker-hanging-rocking-chair.jpg?s=612x612&w=0&k=20&c=b7Uxj-90eZmF-KUJdWDIQV5jTnTzMqcxZXlFdhNFN04=" alt="" height="425">
+            <div class="card-body">
+              <h3 class="text-center">swing</h3>
+              <p class="text-center">lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>$3000<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+            </div>
+          </div>
+          </div>
+          </div>
+    
+          <div class="row" style="margin-top:30px">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="https://media.istockphoto.com/id/1455880829/photo/3d-rendering-3d-illustration-interior-scene-and-mockup-dressing-room-and-walk-in-closet.jpg?s=612x612&w=0&k=20&c=1jZuoNxW9znz2gt3EamxNryn67kYeIRBVou3W-rz1Ds=" alt="" height="425">
+                <div class="card-body">
+                  <h3 class="text-center">cupboards</h3>
+                  <p class="text-center">lorem ipsum dolor sit amet.</p>
+                  <div class="star text-center">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                  </div>
+                  <h2>$60000<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+              </div>
+            </div>
+            
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="https://www.collinsdictionary.com/images/full/stool_141776851.jpg" alt="" height="425">
+              <div class="card-body">
+                <h3 class="text-center">stools</h3>
+                <p class="text-center">lorem ipsum dolor sit amet.</p>
+                <div class="star text-center">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h2>$1000<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwLWg4RKH5lkVsPG6leYG4WI7lj_98vQL-hg&usqp=CAU" alt="" height="425">
+                <div class="card-body">
+                  <h3 class="text-center">chairs</h3>
+                  <p class="text-center">lorem ipsum dolor sit amet.</p>
+                  <div class="star text-center">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                  </div>
+                  <h2>$2500<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+              </div>
+              </div>
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0INQkjVVZpa4oe-5sJQp-hNJXC73Ht6KCpA&usqp=CAU" alt="" height="425">
+                  <div class="card-body">
+                    <h3 class="text-center">dressing table</h3>
+                    <p class="text-center">lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h2>$3660<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                  </div>
+                </div>
+                </div>
+                
+          </div>
+    
+    <!--product content-->
+    
+    
+    <!--other card-->
+    <div class="container" id="other-cards">
+      <div class="row">
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm2iD4vMlmNoH4jLr9LaL6DfI5L72y48B8zA&usqp=CAU" alt="" width="200" height="100">
+            <div class="card-img-overplay">
+              <h3>Best sofaset </h3>
+              <h5>Latest Collection</h5>
+              <p> Up To 50% Off</p>
+              <button id="shopnow">Shop now</Shop> </button>
+            </div>
+          </div>
+          </div>
+      
+            <div class="col-md-6 py-3 py-md-0">
+              <div class="card">
+                <img src="https://cpimg.tistatic.com/07353104/b/4/6-Seater-Wooden-Dining-Table-Set.jpg" alt="" width="200" height="100">
+                <div class="card-img-overplay">
+                  <h3>Best dinnig table </h3>
+                  <h5>Latest Collection</h5>
+                  <p> Up To 50% Off</p>
+                  <button id="shopnow">Shop now</Shop> </button>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+    
+    <!--other card-->
+    
+    <br>
+    <br>
+    
+    <!--banner-->
+      <section class="banner">
+        <div class="content">
+          <h1><span>furnitures</span></spa></span>
+          <br>
+          Up To <span id="span2">50%</span>off
+        </h1>
+        <p>Lorem ipsum dolor sit amet cis cum! Qui.</p>
+        <div class="btn"><button>Shop Now</button></div>
+        </div>
+        <br><br>
+        <div class="img">
+          <img src="https://www.eslbuzz.com/wp-content/uploads/2017/09/12932827_483049308571501_2937566035547327127_n.jpg" alt="" width="700">
+        </div>
+    </section>
+    
+    <!--banner-->
+    
+    
+    <!--product cards-->
+    <div class="container" id="product-cards">
+    
+      <div class="row" style="margin-top:30px">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXcD9rpaRUTN4YPkIFdDdBaDEXa0PDHrMBEQ&usqp=CAU" alt="" height="228">
+            <div class="card-body">
+              <h3 class="text-center">Nightstand</h3>
+              <p class="text-center">lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>$100<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+            </div>
+          </div>
+        </div>
+      
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="https://media.istockphoto.com/id/505973586/photo/grey-armchair-isolated.jpg?s=612x612&w=0&k=20&c=8WHCjWGHpqEvY5O53drcHcclWRF3ZgvLfRIGx_iv0As=" alt="" height="230">
+          <div class="card-body">
+            <h3 class="text-center">Arm chair</h3>
+            <p class="text-center">lorem ipsum dolor sit amet.</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>$1000<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEy-z7-YW2pfx6yqPN2rH6mbSKrKO00Nn_Gw&usqp=CAU" alt="" height="230">
+            <div class="card-body">
+              <h3 class="text-center">Oto man</h3>
+              <p class="text-center">lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>$500<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="https://cdn.shopify.com/s/files/1/0099/2867/1291/products/FLSDSCHOLARSDWLT01.jpg?v=1656487315" alt="" height="230">
+              <div class="card-body">
+                <h3 class="text-center">desk</h3>
+                <p class="text-center">lorem ipsum dolor sit amet.</p>
+                <div class="star text-center">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h2>$200<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+              </div>
+            </div>
+            </div>
+              </div>
+        </div>
+        <!--other cards-->
+        <div class="container" id="other">
+        <div class="row">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="https://media.istockphoto.com/id/1034261806/photo/modern-scandinavian-living-room-interior-3d-render.jpg?s=612x612&w=0&k=20&c=_j1omZD7JhpcuiPrHqRGOD7-KWWlvEQNIPFjqjO4E9E=" alt="" width="415" height="200">
+              <div class="card-img-overlay">
+              <h3>Home furniture</h3>
+              <p>Latest Collection Up To 50% Off</p>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="https://stylesatlife.com/wp-content/uploads/2020/01/modern-collaborative-office-furniture.jpg.webp" alt=""  width="415" height="200">
+              <div class="card-img-overlay">
+              <h3>office furniture</h3>
+              <p>Latest Collection Up To 50% Off</p>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="https://www.chanakyafurniture.com/UploadImages/2849014.jpg" alt="" width="415" height="200">
+              <div class="card-img-overlay">
+              <h3>school furniture</h3>
+              <p>Latest Collection Up To 50% Off</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+        <!--other cards-->
+        
+    
+    
+    
+    
+        <div class="row" style="margin-top:30px">
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="https://media.istockphoto.com/id/1333162123/photo/stylish-composition-of-modern-living-room-interior-in-small-apartment-eucalyptus-sofa-wooden.jpg?b=1&s=170667a&w=0&k=20&c=V5upr7M2B0uNHY-pZR9dREWMZvRx5CeQQCS1aRV7azQ=" alt="" height="228">
+              <div class="card-body">
+                <h3 class="text-center">coffee table</h3>
+                <p class="text-center">lorem ipsum dolor sit amet.</p>
+                <div class="star text-center">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h2>$150<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+              </div>
+            </div>
+          </div>
+        
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1501691586945-40e89fff207f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmVuY2hlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" height="230">
+            <div class="card-body">
+              <h3 class="text-center">benches</h3>
+              <p class="text-center">lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>$1500<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="https://media.istockphoto.com/id/1333987298/photo/a-luxurious-and-classic-outdoor-bed-swing-painted-a-seafoam-green-with-white-deep-cushions.jpg?s=612x612&w=0&k=20&c=K1rPKUtRWT-LvfLGdSvqA_mIKZHwOMj1UqqiRyyY5LQ=" alt="" height="230">
+              <div class="card-body">
+                <h3 class="text-center">swing</h3>
+                <p class="text-center">lorem ipsum dolor sit amet.</p>
+                <div class="star text-center">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h2>$100.20<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="https://stylesatlife.com/wp-content/uploads/2019/06/Hinge-Door-Wardrobe.jpg" alt="" height="230">
+                <div class="card-body">
+                  <h3 class="text-center">wardrobe</h3>
+                  <p class="text-center">lorem ipsum dolor sit amet.</p>
+                  <div class="star text-center">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                  </div>
+                  <h2>$500.60<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+              </div>
+              </div>
+                </div>
+        
+          <div class="row" style="margin-top:30px">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk9nXp_cHrSmvToZ6__Ia4RMa0bof7ydlUXw&usqp=CAU" alt="" height="228">
+                <div class="card-body">
+                  <h3 class="text-center">window</h3>
+                  <p class="text-center">lorem ipsum dolor sit amet.</p>
+                  <div class="star text-center">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                  </div>
+                  <h2>$1000<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+              </div>
+        </div>
+          
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ZRwa2_AMPfKniWjzuF8o1M068Py8GaoPpA&usqp=CAU" alt="" height="230">
+              <div class="card-body">
+                <h3 class="text-center">Doors</h3>
+                <p class="text-center">lorem ipsum dolor sit amet.</p>
+                <div class="star text-center">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h2>$100.50<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNoYWlyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" height="230">
+                <div class="card-body">
+                  <h3 class="text-center">chair</h3>
+                  <p class="text-center">lorem ipsum dolor sit amet.</p>
+                  <div class="star text-center">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                  </div>
+                  <h2>$500<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                </div>
+              </div>
+              </div>
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                  <img src="https://media.istockphoto.com/id/1254646139/photo/comfortable-workplace-with-potted-plants-wall-organizer-pictures-and-computer.jpg?b=1&s=170667a&w=0&k=20&c=hEFqMBaWRriOP2XnDtbUymjHyjhs280EARPukLq1WaU=" alt="" height="230">
+                  <div class="card-body">
+                    <h3 class="text-center">laptop tables</h3>
+                    <p class="text-center">lorem ipsum dolor sit amet.</p>
+                    <div class="star text-center">
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h2>$200.30<span><i class="fa-solid fa-cart-shopping"></i></span></h2>
+                  </div>
+                </div>
+                </div>
+                  </div>
+    
+        </div>
+      
+      </div>
+    
+    </div>
+    
+    
+    <!--product cards-->
+    
+    
+    <!--offer-->
+    <div class="container" id="offer">
+      <div class="row">
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h3>Free Shopping</h3>
+          <p>On order over $1000</p>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-rotate-left"></i>
+          <h3>Free Returns</h3>
+          <p>Within 30 days</p>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-truck"></i>
+          <h3>Fast Delivery</h3>
+          <p>World Wide</p>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-thumbs-up"></i>
+          <h3>Big choice</h3>
+          <p>Of Products</p>
+        </div>
+      </div>
+    </div>
+    
+    <!--offer-->
+    
+    
+    
+    <!--newslater-->
+    
+    <div class="container" id ="newslater" style="margin-top: 100px;">
+      <h3 class="text-center">Subcscribe To The furniture shop For Latest Upload.</h3>
+      <dic class="input text-center">
+        <center><input type="text" placeholder="Enter Your Email..">
+        <button id="subscribe">SUBSCRIBE</button></center>
+      </div>
+    </div>
+    <!--newslater-->
+    
+    
+    
+    <!--footer-->
+      <footer id="footer">
+        <div class="footer-top">
+      <div class="container">
+        <div class="row">
+    
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>furniture Shop</h3>
+            <p>
+              mounika<br>
+              goud<br>
+              Pakistan<br>
+            </p>
+            <strong>Phone:</strong>+0000000000000000<br>
+            <strong>Email:</strong>furnitureshop@.com <br>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Usefull Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of srvice</a></li>
+              <li><a href="#">Privacy policey</a></li>
+            </ul>
+            </div>
+    
+    
+         <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+    
+            <ul>
+              <li><a href="#">sofa</a></li>
+              <li><a href="#">dinning table</a></li>
+              <li><a href="#">chair</a></li>
+              <li><a href="#">ward robe</a></li>
+              <li><a href="#">swings</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>    
+    <div class="social-links mt-3">
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-skype"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    </div>
+    </div>
+      </div>    
+        </div>
+        <hr>
+        <div class="container py-4">
+        <div class="copright">
+          &copy; Copyright<strong><span>furniture Shop</span></strong>.All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed By <a href="#">SA coding</a>
+          </div>
+        </div>
+        
+      </footer>       
+    <!--footer-->
+    
+    
+    <a href="#" class="arrow"><i><img src="scroll.jpg" alt="" height="20" width="20"></i></a>
+             
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+    </html>
+    
+</body>
+</html>
